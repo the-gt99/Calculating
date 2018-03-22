@@ -162,7 +162,7 @@ $st1 = [];
 $st2 = [];
 $st3 = [];
 
-function Brackets($str){
+function Brackets_fake($str){
 global $st1,$st2,$st3;
 
     $count = strlen($str);
@@ -241,7 +241,7 @@ global $st1,$st2,$st3;
 
 
 /*------Вывод------*/
-print_r(Brackets($str));
+print_r(Brackets_fake($str));
 
 
 ?>
